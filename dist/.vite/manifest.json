@@ -1,0 +1,55 @@
+{
+  "../../../@crx/manifest": {
+    "file": "assets/crx-manifest.js-Ce9R0z_F.js",
+    "name": "crx-manifest.js",
+    "src": "../../../@crx/manifest",
+    "isEntry": true
+  },
+  "_BookMarkService-D4Ix9_At.js": {
+    "file": "assets/BookMarkService-D4Ix9_At.js",
+    "name": "BookMarkService"
+  },
+  "index.html": {
+    "file": "assets/index.html-CFGhP-kG.js",
+    "name": "index.html",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_BookMarkService-D4Ix9_At.js"
+    ],
+    "dynamicImports": [
+      "src/views/AboutView.vue"
+    ],
+    "css": [
+      "assets/index-C85y-8UX.css"
+    ]
+  },
+  "src/background/service-worker.ts": {
+    "file": "assets/service-worker.ts-DKibNb2e.js",
+    "name": "service-worker.ts",
+    "src": "src/background/service-worker.ts",
+    "isEntry": true,
+    "imports": [
+      "_BookMarkService-D4Ix9_At.js"
+    ]
+  },
+  "src/content/content.ts": {
+    "file": "assets/content.ts-l0sNRNKZ.js",
+    "name": "content.ts",
+    "src": "src/content/content.ts",
+    "isEntry": true
+  },
+  "src/views/AboutView.vue": {
+    "file": "assets/AboutView-JnDkw0HS.js",
+    "name": "AboutView",
+    "src": "src/views/AboutView.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_BookMarkService-D4Ix9_At.js"
+    ],
+    "css": [
+      "assets/AboutView-CSIvawM9.css"
+    ]
+  }
+}
