@@ -23,9 +23,16 @@ export default defineConfig({
     crx({
       manifest: {
         manifest_version: 3,
-        name: 'My Vue Chrome Extension',
+        name: '隐匿书签',
         version: '1.0.0',
-        description: 'A Chrome extension built with Vite and Vue',
+        description: '用于在浏览器中隐藏书签内容，防止他人查看',
+        icons: {
+          '16': 'img/star-on-16.png',
+          '32': 'img/star-on-32.png',
+        },
+        author: {
+          email: 'kevelena@qq.com',
+        },
         action: {
           default_popup: 'index.html',
           default_icon: {

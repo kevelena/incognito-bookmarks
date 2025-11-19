@@ -11,6 +11,7 @@ BookMarkService.getSetting().then((res) => {
 
 function updateBookMark() {
   BookMarkService.updateSetting(setting.value).then(() => {
+    chrome.storage.session.remove('unLockDate')
     ElMessage({
       message: '修改成功',
       type: 'success',
