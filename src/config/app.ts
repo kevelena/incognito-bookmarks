@@ -7,7 +7,7 @@ export default {
    */
   marksKey: 'Bnsm23FiGhFXoO/1XKg1PZDWP0E=',
   settingKey: 'setting',
-  defPwd: '123456',
+  defPwd: '',
   authDuration: 1000 * 60 * 5,
   urlPrefix: 'https://d.cn/',
   key: 'aswrca11',

@@ -6,7 +6,13 @@ import Lock from '@/components/Lock.vue'
 </script>
 
 <template>
-  <el-config-provider :locale="zhCn">
+  <el-config-provider
+    :locale="zhCn"
+    :message="{
+      max: 1,
+      offset: 3,
+    }"
+  >
     <Lock v-if="useLockStore().isLock"></Lock>
     <RouterView v-else />
   </el-config-provider>

@@ -48,7 +48,13 @@ function handleClose(done: any) {
     :before-close="handleClose"
     :width="($attrs.width as string) || '50%'"
   >
-    <el-config-provider :locale="zhCn">
+    <el-config-provider
+      :locale="zhCn"
+      :message="{
+        max: 1,
+        offset: 3,
+      }"
+    >
       <component :is="props.component" v-bind="$attrs" @close="onMaskClick"></component>
     </el-config-provider>
   </el-dialog>
