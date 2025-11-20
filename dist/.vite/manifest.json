@@ -5,29 +5,29 @@
     "src": "../../../@crx/manifest",
     "isEntry": true
   },
-  "_BookMarkService-CqBdMQkV.js": {
-    "file": "assets/BookMarkService-CqBdMQkV.js",
+  "_BookMarkService-DgiCsSlG.js": {
+    "file": "assets/BookMarkService-DgiCsSlG.js",
     "name": "BookMarkService"
   },
   "index.html": {
-    "file": "assets/index.html-DB8OiYBP.js",
+    "file": "assets/index.html-Bl8xewjR.js",
     "name": "index.html",
     "src": "index.html",
     "isEntry": true,
     "imports": [
-      "_BookMarkService-CqBdMQkV.js"
+      "_BookMarkService-DgiCsSlG.js"
     ],
     "css": [
-      "assets/index-Dk6J3xRU.css"
+      "assets/index-BkQ-mw5l.css"
     ]
   },
   "src/background/service-worker.ts": {
-    "file": "assets/service-worker.ts-DvT6G3SL.js",
+    "file": "assets/service-worker.ts-Bpj9-Mr-.js",
     "name": "service-worker.ts",
     "src": "src/background/service-worker.ts",
     "isEntry": true,
     "imports": [
-      "_BookMarkService-CqBdMQkV.js"
+      "_BookMarkService-DgiCsSlG.js"
     ]
   },
   "src/content/content.ts": {
